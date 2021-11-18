@@ -34,6 +34,9 @@
       ![image-20211109223417357](img/README/image-20211109223417357.png)
    
       ![image-20211109223222450](img/README/image-20211109223222450.png)
+      
+   5. 修改Project中的项目SDK，Project language level选择 8 
+      ![image-20211109224405956](img/README/image-20211109224405956.png)
 
 ## idea配置
 
