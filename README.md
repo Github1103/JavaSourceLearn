@@ -40,11 +40,11 @@
 
 ## idea配置
 
-1. 为了防止编译报错资源不足，这里需要修改一下编译环境，进入settings-》Build,Execution,Deployment-》Compiler-》Shared build process heap size（Mbytes） =  `1700`
+1. 为了防止编译报错资源不足，这里需要修改一下编译环境，进入settings-》Build,Execution,Deployment-》Compiler-》Shared build process heap size（Mbytes） =  `1700`，记得点应用（apply）
    ![image-20211109223618735](img/README/image-20211109223618735.png)
 2. 为了在Debugger的时候能够跳转到菜单下一级，Debugger-》Stepping-》Do not step into the classes的勾取消掉。
    ![image-20211109223907308](img/README/image-20211109223907308.png)
 
 ## 运行起来
 
-1. 来到Main方法，运行起来，等待一段很长很长时间的编译即可。
+1. 来到Main方法，运行起来，等待一段很长很长时间的编译即可。但是编译的时间非常长，要去检查idea配置中第一条有没有配置正确。
